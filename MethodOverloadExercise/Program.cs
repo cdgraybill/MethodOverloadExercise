@@ -6,8 +6,8 @@ namespace MethodOverloadExercise
     {
         static void Main(string[] args)
         {
-            var m = Add(0, 1, true);
-            Console.WriteLine(m);
+            var cost = Add(0, 1, true);
+            Console.WriteLine(cost);
             Console.ReadLine();
         }
 
